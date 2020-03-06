@@ -19,17 +19,17 @@
     <!-- ==============================================
 		CSS
         =============================================== -->
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}" />
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}" />
-    <link rel="stylesheet" href="{{ asset('css/stylesheet.css') }}" />
-    <link rel="stylesheet" href="{{ asset('css/home-custom-3.css') }}" />
-    <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/slick.min.css') }}" />
-    <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}" />
-    <link rel="stylesheet" href="{{ asset('css/animation.aos.min.css') }}" />
-    <link rel="stylesheet" href="{{ asset('css/animate.min.css') }}" />
-    <link rel="stylesheet" href="{{ asset('fonts/font-awesome/css/font-awesome.min.css') }}" />
-    <link rel="stylesheet" href="{{ asset('fonts/css/all.min.css') }}" />
+    <link rel="stylesheet" href="/css/app.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/stylesheet.css" />
+    <link rel="stylesheet" href="/css/home-custom-3.css" />
+    <link rel="stylesheet" href="/css/responsive.css'">
+    <link rel="stylesheet" href="/css/slick.min.css'" />
+    <link rel="stylesheet" href="/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="/css/animation.aos.min.css" />
+    <link rel="stylesheet" href="/css/animate.min.css" />
+    <link rel="stylesheet" href="/fonts/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="/fonts/css/all.min.css" />
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
