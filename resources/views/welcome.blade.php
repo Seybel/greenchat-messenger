@@ -13,6 +13,9 @@
 		=============================================== -->
     <link rel="shortcut icon" href="{{ asset('img/master/favicon.ico') }}">
 
+    <!-- Bootstrap -->
+    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
+
     <!-- ==============================================
 		CSS
         =============================================== -->
