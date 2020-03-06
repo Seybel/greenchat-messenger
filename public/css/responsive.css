@@ -1,0 +1,815 @@
+/*###################################
+  ---------- MEDIA QUERIES ----------
+  ##################################*/
+
+@media (max-width:1400px) { 
+    
+.testimonials-container{
+    width: 80%;
+    bottom: -60px;
+    padding: 2.5rem 2rem;
+}
+    
+.testimonial-section .owl-carousel{
+    width: 90%;
+}    
+    
+}
+
+@media (max-width:1300px) { 
+.panel-content{
+    width: 50%;
+}
+    
+.wide-right-layer{
+    margin-left: -4rem;
+    padding: 3rem 7rem 2.8rem 5rem;
+}
+    
+.layer-content{
+    width: 50%;
+    padding-right: 3rem;
+}
+    
+.righ-panel{
+    width: 70%;
+    padding: 5% 4%;
+}
+
+    
+}
+
+@media (max-width:1200px) { 
+    
+.container{
+    max-width: 95%;
+} 
+    
+.product-caption{
+    padding: 6% 2%;   
+}
+    
+.counter-icon-svg{
+    width: 50px;
+}
+    
+.wide-right{
+    background-color: #46866C;
+    height: 420px;
+    margin-left: -4rem;
+    margin-top: 3.5rem;
+    width: 1400px;
+    padding: 2rem;
+    z-index: 2;
+    position: relative;
+}
+    
+.wide-right-layer{
+    margin-left: -4rem;
+    padding: 3rem 7rem 2.8rem 5rem;
+}
+    
+.layer-content{
+    width: 45%;
+    padding-right: 3rem;
+}
+    
+.righ-panel{
+    width: 80%;
+    bottom: -80px;
+}
+ 
+}
+
+    
+@media (max-width:1100px) { 
+
+.product-caption{
+    padding: 5% 2%;   
+}
+    
+.product-caption p{
+    line-height: 1.8;   
+}
+    
+.panel-content{
+    width: 45%;
+}
+   
+
+}
+
+@media (max-width:992px) { 
+    
+html {
+    font-size: 20px;
+} 
+    
+h3, .h3 {
+    font-size: 1rem;
+}
+    
+h4, .h4 {
+    font-size: 0.90rem;
+}
+
+h5, .h5 {
+    font-size: 0.80rem;
+}
+    
+footer .container{
+    margin-top: 0rem;
+}
+    
+.main-slider{
+    height: 650px;
+}
+
+.carousel-item {
+  height: 650px;
+}
+       
+section{
+    margin-bottom: 0;
+    z-index: 0;
+    background: #FFF;;
+}
+    
+.accordion-side{
+    padding-right: 15px;
+}
+ 
+}
+
+@media (max-width:991px) { 
+     
+.space-break, .aside-right{
+    margin-top: 2rem;
+}
+      
+.center-space{
+    margin: 2rem 0rem;
+}
+    
+.tablet-view{
+    margin-top: 2rem;
+}
+    
+.order-md-6 {
+    -ms-flex-order: 6;
+    order: 6;
+}
+    
+.order-first {
+  -ms-flex-order: -1;
+  order: -1;
+}
+
+.order-last {
+  -ms-flex-order: 13;
+  order: 13;
+}
+    
+.product-caption{
+    padding: 2rem 3rem 2.5rem;   
+}
+    
+.inner-counter{
+    text-align: center;
+}
+    
+.counter-icon{
+    width: 70px;
+    float: none;
+    margin: auto;
+}
+    
+.c-breakpoint{
+    margin-top: 2rem;
+}
+    
+.customer-tablet-view{
+    margin-bottom: 2rem;
+}
+    
+.inner-color{
+    padding: 0.80rem 0rem 1rem;
+}
+    
+.footer-logo{
+    width: 110px;
+}
+    
+footer .container{
+    margin: 2rem auto 2rem;;
+}
+    
+.footer-nav{
+    padding-right: 0px;
+    width: 50%;
+}
+    
+.vector-bg{
+    margin-top: 0px;
+    padding: 5px 0px 15px 0px;
+}
+     
+.option-icon{
+    margin-bottom: 30px;
+}
+    
+.option-left{
+    float: none;
+    height: 80px;
+}
+    
+.option-right{
+    height: 80px;
+}
+    
+.wide-right{
+    height: 100%;
+    margin-left: 0rem;
+    margin-top: 0rem;
+    width: 100%;
+    padding: 3rem 2rem 6rem 2rem;
+}
+    
+.panel-content{
+    width: 100%;
+    padding-right: 0rem;
+}
+    
+.span-options{
+    margin-top: 1.5rem;
+}
+    
+.option-left, .option-right{
+    width: 100%;
+    margin-top: 10px;
+}
+    
+.front-boxes{
+    margin-top: 3rem;
+}
+    
+.wide-right-layer{
+    margin-top: 0rem;
+    width: auto;
+    margin-left: -2rem;
+    margin-right: -2rem;
+    padding: 3rem 4rem;
+}
+    
+.layer-content{
+    width: 100%;
+    padding-right: 0rem;
+}
+    
+.righ-panel{
+    height: 100%;
+    background: #46866C;
+    position: relative;
+    width: 100%;
+    float: none;
+    z-index: 2;
+    bottom: -0px;
+    padding: 3.5rem 2rem;
+    background: rgba(70, 134, 108, 0.8);
+}
+    
+.span-counter .counter-icon{
+    width: 40px;
+    float: left;
+    margin: 0px 20px 20px 0px;
+}
+    
+.span-counter .counter-statistics .counter{
+    text-align: left;
+}
+
+.span-counter .counter-statistics p{
+    text-align: left;
+}
+    
+.ag-full-bg{ 
+    height: 100%; 
+}
+
+    
+.ag-vector-bg{ 
+    margin-top: -55px;
+}
+    
+.ag-vector-bg .owl-carousel{
+    padding-top: 1rem;
+}
+    
+.testimonials-container{
+    height: auto;
+    background: rgba(70, 134, 108, 0.8);
+    position: absolute;
+    right: 0;
+    width: 100%;
+    float: right;
+    bottom: 0;
+    top: 0;
+    padding: 3.5rem 2rem 4rem;
+}
+    
+.testimonial-section .owl-carousel{
+    width: 100%;
+}
+    
+.testimonial-section{ 
+    background-image: url("../img/images/testimonial-section.jpg");
+    max-height: 450px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+  
+}
+
+@media (min-width: 851px) {
+  .navbar-expand-lg {
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  .navbar-expand-lg .navbar-nav {
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+  .navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+  .navbar-expand-lg > .container,
+  .navbar-expand-lg > .container-fluid {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+  .navbar-expand-lg .navbar-collapse {
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+  }
+  .navbar-expand-lg .navbar-toggler {
+    display: none;
+  }
+    
+.nav-link {
+  margin: 0px 2px 0px 5px;
+}
+    
+}
+
+@media (max-width:850px) { 
+    
+.main-nav{
+    margin-top: 0px;
+}
+    
+.main-nav .container{
+    margin: auto;
+    max-width: 100%;
+    height: 60px;
+}
+    
+.navbar-brand{
+    display: inherit;
+}
+    
+.logo-brand{
+    width: 90px;
+    margin: 0px 10px 0px;
+    margin-top: 20px;
+}
+    
+.logo-brand img{
+    width: 100%;
+}
+    
+.navbar-expand-lg{
+    padding: 2px 0px;
+}
+
+.icon-bar {
+	width: 22px; 
+	height: 2px;
+	background-color: #FFF;
+	display: block;
+	transition: all 0.2s;
+	margin-top: 4px
+}
+ 
+.navbar-toggler {
+    border: none;
+    background: transparent !important;
+    margin-top: 20px;
+}
+ 
+.navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+ 
+.navbar-toggler .middle-bar {
+  opacity: 0;
+}
+ 
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+    
+button:focus {
+outline: none;
+outline: none;
+
+}
+ 
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+ 
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+}
+ 
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+    
+.navbar-nav > li > a {
+    color: #595959;
+    font-weight:normal;
+    font-size: 12px;
+    padding-left: 15px;
+    margin-top: 4px;
+}  
+    
+.navbar-nav > li > a:hover {
+    color: #EEC344;
+}  
+    
+.navbar-nav > li > a:focus {
+    color: #595959;
+}
+    
+.dropdown-menu{
+    margin-top: -16px;
+    background: #FFF;
+    border: none;
+}    
+.dropdown-menu > li > a {
+    color: #595959;
+    font-size: 12px;
+    transition: 0.3s;
+    padding-left: 30px;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    color: #EEC344;
+    background-color: transparent;
+}
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+}
+.dropdown-menu > .disabled > a,
+.dropdown-menu > .disabled > a:hover,
+.dropdown-menu > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+}
+    
+.navbar-nav > .open > a,
+.navbar-nav > .open > a:hover,
+.navbar-nav > .open > a:focus {
+    color: #000;
+    background-color: transparent;
+}
+    
+.navbar-nav {
+    margin-top: 2px;
+    background: #FFF;
+} 
+
+.navbar-nav > li {
+    float: none;
+    border-bottom: 1px solid #eff5f5;
+    padding: 3px 10px 3px 5px;
+}
+    
+.dropdown-toggle {
+    border: none;
+}
+    
+.dropdown-menu .divider-top {
+  display:inherit;
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  clear: both;
+}
+    
+.dropdown-menu .divider {
+  background-color: #eff5f5;
+}
+    
+.open .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: #fff;
+    border: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+    
+.caret-drop{
+    float: right;
+    margin-top: -7px;
+}
+    
+.caret-drop:before{
+    content: "\f107";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    color: #EEC344;
+    font-size: 20px;
+}
+    
+.navbar-collapse{
+    margin-top: 10px;
+}
+
+.navbar-nav>.open>a, .navbar-nav>.open>a:hover, .navbar-nav>.open>a:focus{
+    background-image:none;
+    color: #fff;
+    background-color: rgba(0,0,0,0.5); 
+}
+    
+.form-inline{
+    display: none;
+}
+    
+}
+
+
+@media (max-width:768px) { 
+.section-title{
+    width: 80%;
+}
+    
+.display-4{
+    font-size: 1.8rem;
+    line-height: 1.2;
+}
+    
+.lead{
+    color: #FFF;
+    font-size: 16px;
+    line-height: 1.6;
+}
+  
+.main-slider{
+    height: 600px;
+}
+
+.carousel-item {
+  height: 600px;
+}
+    
+.error-page .middle{
+    color: #FFF;
+    top: 30%;
+    left: 0%;
+    right: 0%;
+    transform: translate(0%, 0%);
+    padding: 0px 20px 0px 20px;
+}
+    
+.accordion a:after {
+    top: 16px;
+}
+    
+.accordion li p {
+    font-size: 13px;
+
+}
+
+.accordion a {
+    font-size: 14px;
+}   
+
+.bottom-footer{
+    margin-top: 15px;
+}
+    
+hr.footer{
+    margin: 10px auto 30px auto;
+}  
+
+.copytight{
+    float: none; 
+}
+    
+.social-footer{
+    float: none;
+    margin-top: 20px;
+    width: 130px;
+    margin: auto;
+}
+    
+.copytight p{
+    text-align: center;
+    margin-bottom: 10px;
+}
+    
+footer{
+    background-color: #333;
+    padding: 15px 0px 5px 0px;
+}
+    
+.footer-nav{
+    width: 60%;
+}
+    
+.testimonial .testimonial-content{
+    line-height: 1.5;
+    width: 100%;
+}
+    
+.testimonial{
+    padding: 0px 10px;
+}
+    
+.ag-panel-content{
+    width: 100%;
+}
+    
+.testimonials-container{
+    padding: 3.5rem 1rem 2rem;
+}
+    
+    .space-break-2{
+        margin-top: 1rem;
+    }
+    
+}
+
+@media (max-width:576px) { 
+    
+html {
+    font-size: 18px;
+}
+      
+.sections{
+    height: 450px; 
+}
+    
+.pages-title{
+    bottom: 30px;
+}
+    
+.pages-title p{
+    font-size: 13px;
+    line-height: 1.5;
+}
+   
+.section-title{
+    width: 100%;
+}
+    
+.main-slider{
+    height: 550px;
+}
+
+.carousel-item {
+  height: 550px;
+}
+    
+.error-page-bg{
+    height: 600px;
+}
+    
+.c-movil-breakpoint{
+    margin-top: 2rem;
+}
+    
+.footer-logo{
+    width: 90px;
+}
+    
+.btn-tags {
+    margin-bottom: 5px;
+}
+    
+.contact-form{
+    padding: 30px;
+}
+    
+.footer-nav{
+    width: 70%;
+}
+    
+.testimonial .testimonial-content p{
+    line-height: 1.6;
+    font-size: 13px;
+}
+    
+.wide-right{
+    height: 100%;
+    margin-left: 0rem;
+    width: 100%;
+    padding: 2rem 1rem 6.5rem 1rem;
+}
+    
+.ag-inner-box-left{
+    float: none;
+    width: 100%;
+    padding-right: 0px;
+}
+
+.ag-inner-box-right{
+    float: none;
+    width: 100%;
+    padding-right: 0px;
+    margin-top: 1rem;
+}
+    
+.testimonials-container{
+    padding: 2.5rem 18px 2rem;
+}
+    
+.testimonial-section .owl-theme .owl-controls{
+    position: relative;
+    right: 0;
+    margin-top: 0rem;
+    margin-right: 0rem;
+} 
+    
+.testimonial-section .testimonial{
+    padding: 0px 10px;
+}
+    
+.testimonial-section .customer-avatar{
+    width: 60px;
+}
+    
+.wide-right-layer{
+    padding: 3rem 2.5rem;
+}
+    
+.layer-caption p{
+    line-height: 1.5;
+    font-size: 13px;
+}
+    
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+
+.display-4{
+    font-size: 1.4rem;
+    line-height: 1.2;
+}
+     
+}
+
+@media (max-width:480px) {   
+.carousel-caption {
+  position: absolute;
+  top: 38%;
+  right: 10%;
+  left: 10%;
+  padding: 0px 20px;
+}
+    
+.footer-nav{
+    width: 90%;
+}
+    
+    
+.testimonial-section .customer-testimonial p{
+    font-size: 14px;
+    font-style: italic;  
+}
+    
+}
