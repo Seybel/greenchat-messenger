@@ -5,6 +5,9 @@
                 <div class="text">
                     {{ message.text }}
                 </div>
+                <div class="time-sent">
+                    {{ message.created_at }}
+                </div>
             </li>
         </ul>
     </div>
@@ -54,6 +57,13 @@
             &.message {
                 margin: 10px 0;
                 width: 100%;
+
+                .time-sent {
+                   font-style: italic;
+                   font-size: 12px;
+                   padding: 5px;
+                   color: #333;
+                }
 
                 .text {
                     max-width: 200px;

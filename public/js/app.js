@@ -58162,7 +58162,7 @@ exports = module.exports = __webpack_require__(2)(false);
 
 
 // module
-exports.push([module.i, "\n.feed[data-v-319c5f01] {\n  background: #f0f0f0;\n  height: 100%;\n  max-height: 470px;\n  overflow: scroll;\n}\n.feed ul[data-v-319c5f01] {\n    list-style-type: none;\n    padding: 5px;\n}\n.feed ul li.message[data-v-319c5f01] {\n      margin: 10px 0;\n      width: 100%;\n}\n.feed ul li.message .text[data-v-319c5f01] {\n        max-width: 200px;\n        border-radius: 5px;\n        padding: 12px;\n        display: inline-block;\n}\n.feed ul li.message.received[data-v-319c5f01] {\n        text-align: left;\n}\n.feed ul li.message.received .text[data-v-319c5f01] {\n          background: #b2b2b2;\n}\n.feed ul li.message.sent[data-v-319c5f01] {\n        text-align: right;\n}\n.feed ul li.message.sent .text[data-v-319c5f01] {\n          background: #81c4f9;\n}\n", ""]);
+exports.push([module.i, "\n.feed[data-v-319c5f01] {\n  background: #f0f0f0;\n  height: 100%;\n  max-height: 470px;\n  overflow: scroll;\n}\n.feed ul[data-v-319c5f01] {\n    list-style-type: none;\n    padding: 5px;\n}\n.feed ul li.message[data-v-319c5f01] {\n      margin: 10px 0;\n      width: 100%;\n}\n.feed ul li.message .time-sent[data-v-319c5f01] {\n        font-style: italic;\n        font-size: 12px;\n        padding: 5px;\n        color: #333;\n}\n.feed ul li.message .text[data-v-319c5f01] {\n        max-width: 200px;\n        border-radius: 5px;\n        padding: 12px;\n        display: inline-block;\n}\n.feed ul li.message.received[data-v-319c5f01] {\n        text-align: left;\n}\n.feed ul li.message.received .text[data-v-319c5f01] {\n          background: #b2b2b2;\n}\n.feed ul li.message.sent[data-v-319c5f01] {\n        text-align: right;\n}\n.feed ul li.message.sent .text[data-v-319c5f01] {\n          background: #81c4f9;\n}\n", ""]);
 
 // exports
 
@@ -58173,6 +58173,9 @@ exports.push([module.i, "\n.feed[data-v-319c5f01] {\n  background: #f0f0f0;\n  h
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
 //
 //
 //
@@ -58241,6 +58244,14 @@ var render = function() {
                   _vm._v(
                     "\n                " +
                       _vm._s(message.text) +
+                      "\n            "
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "time-sent" }, [
+                  _vm._v(
+                    "\n                " +
+                      _vm._s(message.created_at) +
                       "\n            "
                   )
                 ])
@@ -58557,7 +58568,7 @@ exports = module.exports = __webpack_require__(2)(false);
 
 
 // module
-exports.push([module.i, "\n.contacts-list[data-v-7bebdbf0] {\n  -webkit-box-flex: 2;\n      -ms-flex: 2;\n          flex: 2;\n  max-height: 100%;\n  height: 600px;\n  overflow: scroll;\n  border-left: 1px solid #a6a6a6;\n}\n.contacts-list ul[data-v-7bebdbf0] {\n    list-style-type: none;\n    padding-left: 0;\n}\n.contacts-list ul li[data-v-7bebdbf0] {\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      padding: 2px;\n      border-bottom: 1px solid #aaaaaa;\n      height: 80px;\n      position: relative;\n      cursor: pointer;\n}\n.contacts-list ul li.selected[data-v-7bebdbf0] {\n        background: #dfdfdf;\n}\n.contacts-list ul li span.unread[data-v-7bebdbf0] {\n        background: #82e0a8;\n        color: #fff;\n        position: absolute;\n        right: 11px;\n        top: 20px;\n        display: -webkit-box;\n        display: -ms-flexbox;\n        display: flex;\n        font-weight: 700;\n        min-width: 20px;\n        -webkit-box-pack: center;\n            -ms-flex-pack: center;\n                justify-content: center;\n        -webkit-box-align: center;\n            -ms-flex-align: center;\n                align-items: center;\n        line-height: 20px;\n        font-size: 12px;\n        padding: 0 4px;\n        border-radius: 3px;\n}\n.contacts-list ul li .avatar[data-v-7bebdbf0] {\n        -webkit-box-flex: 1;\n            -ms-flex: 1;\n                flex: 1;\n        display: -webkit-box;\n        display: -ms-flexbox;\n        display: flex;\n        -webkit-box-align: center;\n            -ms-flex-align: center;\n                align-items: center;\n}\n.contacts-list ul li .avatar img[data-v-7bebdbf0] {\n          width: 35px;\n          border-radius: 50%;\n          margin: 0 auto;\n}\n.contacts-list ul li .contact[data-v-7bebdbf0] {\n        -webkit-box-flex: 3;\n            -ms-flex: 3;\n                flex: 3;\n        font-size: 10px;\n        overflow: hidden;\n        display: -webkit-box;\n        display: -ms-flexbox;\n        display: flex;\n        -webkit-box-orient: vertical;\n        -webkit-box-direction: normal;\n            -ms-flex-direction: column;\n                flex-direction: column;\n        -webkit-box-pack: center;\n            -ms-flex-pack: center;\n                justify-content: center;\n}\n.contacts-list ul li .contact p[data-v-7bebdbf0] {\n          margin: 0;\n}\n.contacts-list ul li .contact p.name[data-v-7bebdbf0] {\n            font-weight: bold;\n}\n", ""]);
+exports.push([module.i, "\n.contacts-list[data-v-7bebdbf0] {\n  -webkit-box-flex: 2;\n      -ms-flex: 2;\n          flex: 2;\n  max-height: 100%;\n  height: 600px;\n  overflow: scroll;\n  border-left: 1px solid #a6a6a6;\n}\n.contacts-list ul[data-v-7bebdbf0] {\n    list-style-type: none;\n    padding-left: 0;\n}\n.contacts-list ul li[data-v-7bebdbf0] {\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      padding: 2px;\n      border-bottom: 1px solid #aaaaaa;\n      height: 80px;\n      position: relative;\n      cursor: pointer;\n}\n.contacts-list ul li.selected[data-v-7bebdbf0] {\n        background: #dfdfdf;\n}\n.contacts-list ul li span.unread[data-v-7bebdbf0] {\n        background: #82e0a8;\n        color: #fff;\n        position: absolute;\n        right: 11px;\n        top: 20px;\n        display: -webkit-box;\n        display: -ms-flexbox;\n        display: flex;\n        font-weight: 700;\n        min-width: 20px;\n        -webkit-box-pack: center;\n            -ms-flex-pack: center;\n                justify-content: center;\n        -webkit-box-align: center;\n            -ms-flex-align: center;\n                align-items: center;\n        line-height: 20px;\n        font-size: 12px;\n        padding: 0 4px;\n        border-radius: 3px;\n}\n.contacts-list ul li .avatar[data-v-7bebdbf0] {\n        -webkit-box-flex: 1;\n            -ms-flex: 1;\n                flex: 1;\n        display: -webkit-box;\n        display: -ms-flexbox;\n        display: flex;\n        -webkit-box-align: center;\n            -ms-flex-align: center;\n                align-items: center;\n}\n.contacts-list ul li .avatar img[data-v-7bebdbf0] {\n          width: 35px;\n          border-radius: 50%;\n          margin: 0 auto;\n}\n.contacts-list ul li .contact[data-v-7bebdbf0] {\n        -webkit-box-flex: 3;\n            -ms-flex: 3;\n                flex: 3;\n        font-size: 10px;\n        overflow: hidden;\n        display: -webkit-box;\n        display: -ms-flexbox;\n        display: flex;\n        -webkit-box-orient: vertical;\n        -webkit-box-direction: normal;\n            -ms-flex-direction: column;\n                flex-direction: column;\n        -webkit-box-pack: center;\n            -ms-flex-pack: center;\n                justify-content: center;\n}\n.contacts-list ul li .contact p[data-v-7bebdbf0] {\n          margin: 0;\n}\n.contacts-list ul li .contact p.name[data-v-7bebdbf0] {\n            font-weight: bold;\n}\n.contacts-list ul li .contact span.active-circle[data-v-7bebdbf0] {\n          color: #82e0a8;\n          position: absolute;\n          top: 21px;\n          display: -webkit-inline-box;\n          display: -ms-inline-flexbox;\n          display: inline-flex;\n          font-weight: 700;\n          min-width: 20px;\n          -webkit-box-pack: center;\n              -ms-flex-pack: center;\n                  justify-content: center;\n          -webkit-box-align: center;\n              -ms-flex-align: center;\n                  align-items: center;\n          line-height: 20px;\n          font-size: 7px;\n          padding: 0 4px;\n          border-radius: 50px;\n}\n.contacts-list ul li .contact .green[data-v-7bebdbf0] {\n          color: green;\n}\n.contacts-list ul li .contact .red[data-v-7bebdbf0] {\n          color: red;\n}\n@media (max-width: 375px) {\n.contacts-list ul li .contact span.active-circle[data-v-7bebdbf0] {\n            right: -15px;\n            top: 11px;\n            line-height: inherit;\n}\n}\n.contacts-list ul li .contact span.hide-circle[data-v-7bebdbf0] {\n          display: none;\n}\n", ""]);
 
 // exports
 
@@ -58592,26 +58603,61 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             type: Array,
             default: []
         }
+        // onlineFriends: {
+        //     type: Array,
+        //     default: []
+        // }
     },
     data: function data() {
         return {
+            onlineFriends: [],
             selected: this.contacts.length ? this.contacts[0] : null
         };
     },
+    created: function created() {
+        var _this = this;
+
+        Echo.join('greenchat').here(function (users) {
+            console.log('online users', users);
+            _this.onlineFriends = users;
+        }).joining(function (user) {
+            _this.onlineFriends.push(user);
+            console.log('joining', user.name);
+        }).leaving(function (user) {
+            _this.onlineFriends.splice(_this.onlineFriends.indexOf(user), 1);
+            console.log('leaving', user.name);
+        });
+    },
+
 
     methods: {
         selectContact: function selectContact(contact) {
             this.selected = contact;
 
             this.$emit('selected', contact);
+        },
+        activeFriend: function activeFriend() {
+            var activeFriend = '';
+
+            if (this.onlineFriends.find(function (onlineFriend) {
+                return onlineFriend.id === contact.id;
+            })) {
+                activeFriend = 'active-circle';
+            } else if (this.onlineFriends.find(function (onlineFriend) {
+                return onlineFriend.id != contact.id;
+            })) {
+                activeFriend = 'hide-circle';
+            }
+
+            return activeFriend;
         }
     },
     computed: {
         sortedContacts: function sortedContacts() {
-            var _this = this;
+            var _this2 = this;
 
             return _.sortBy(this.contacts, [function (contact) {
-                if (contact == _this.selected) {
+                if (contact == _this2.selected) {
                     return Infinity;
                 }
 
@@ -58652,7 +58698,20 @@ var render = function() {
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "contact" }, [
-              _c("p", { staticClass: "name" }, [_vm._v(_vm._s(contact.name))]),
+              _c("p", { staticClass: "name" }, [
+                _vm._v(_vm._s(contact.name) + " "),
+                _c(
+                  "span",
+                  {
+                    class: _vm.onlineFriends.find(function(onlineFriend) {
+                      return onlineFriend.id === contact.id
+                    })
+                      ? "active-circle"
+                      : "hide-circle"
+                  },
+                  [_vm._v("⚫")]
+                )
+              ]),
               _vm._v(" "),
               _c("p", { staticClass: "email" }, [_vm._v(_vm._s(contact.email))])
             ]),

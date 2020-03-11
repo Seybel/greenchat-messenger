@@ -499,6 +499,12 @@ section{
     overflow: hidden;
 }
 
+@media (max-width: 540px) {
+  .main-slider {
+    height: auto;
+  }
+}
+
 .carousel-item {
   height: 900px;
   min-height: 350px;

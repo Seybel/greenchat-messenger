@@ -6,7 +6,7 @@
                     <img :src="contact.profile_image" :alt="contact.name">
                 </div>
                 <div class="contact">
-                    <p class="name">{{ contact.name }}</p>
+                    <p class="name">{{ contact.name }} <span :class="(onlineFriends.find(onlineFriend=>onlineFriend.id===contact.id))? 'active-circle': 'hide-circle'">⚫</span></p>
                     <p class="email">{{ contact.email }}</p>
                 </div>
                 <span class="unread" v-if="contact.unread">{{ contact.unread }}</span>
@@ -21,18 +21,52 @@
             contacts: {
                 type: Array,
                 default: []
-            }
+            },
+            // onlineFriends: {
+            //     type: Array,
+            //     default: []
+            // }
         },
         data() {
             return {
+                onlineFriends: [],
                 selected: this.contacts.length ? this.contacts[0] : null
             };
         },
+
+        created() {
+            Echo.join(`greenchat`)
+                .here((users) => {
+                    console.log('online users', users);
+                    this.onlineFriends=users;
+                })
+                .joining((user) => {
+                    this.onlineFriends.push(user);
+                    console.log('joining', user.name);
+                })
+                .leaving((user) => {
+                    this.onlineFriends.splice(this.onlineFriends.indexOf(user), 1)
+                    console.log('leaving', user.name);
+                });
+        },
+
         methods: {
             selectContact(contact) {
                 this.selected = contact;
 
                 this.$emit('selected', contact);
+            },
+            activeFriend() {
+                let activeFriend = '';
+
+                if(this.onlineFriends.find(onlineFriend=>onlineFriend.id===contact.id)) {
+                    activeFriend = 'active-circle';
+                }  
+                else if(this.onlineFriends.find(onlineFriend=>onlineFriend.id!=contact.id)) {
+                    activeFriend = 'hide-circle';
+                }
+
+                return activeFriend;
             }
         },
         computed: {
@@ -116,6 +150,41 @@
                     &.name {
                         font-weight: bold;
                     }
+                }
+
+                span.active-circle {
+                    color: #82e0a8;
+                    position: absolute;
+                    top: 21px;
+                    display: inline-flex;
+                    font-weight: 700;
+                    min-width: 20px;
+                    justify-content: center;
+                    align-items: center;
+                    line-height: 20px;
+                    font-size: 7px;
+                    padding: 0 4px;
+                    border-radius: 50px;
+                }
+
+                .green {
+                    color: green;
+                }
+
+                .red {
+                    color: red;
+                }
+
+                @media (max-width: 375px) {
+                    span.active-circle {
+                        right: -15px;
+                        top: 11px;
+                        line-height: inherit;
+                    }
+                }
+
+                span.hide-circle {
+                    display: none
                 }
             }
         }
