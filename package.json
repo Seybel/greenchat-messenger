@@ -17,7 +17,7 @@
         "heroku-postbuild": "export NPM_CONFIG_PRODUCTION=true; export NODE_ENV=production; npm run prod"
     },
     "devDependencies": {
-        "axios": "^0.18",
+        "axios": "^0.21",
         "bootstrap": "^4.0.0",
         "popper.js": "^1.12",
         "cross-env": "^5.1",
